@@ -23,7 +23,6 @@ A modern and responsive personal portfolio website built using **HTML5**, **CSS3
 - Bootstrap 5
 - JavaScript
 - Bootstrap Icons
-- Google Fonts
 
 ## 📁 Project Structure
 
