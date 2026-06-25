@@ -1,0 +1,439 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio | CS Student</title>
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap"
+    rel="stylesheet">
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Bootstrap Icons -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body data-bs-spy="scroll" data-bs-target="#navbar" data-bs-root-margin="0px 0px -40%" data-bs-smooth-scroll="true"
+  tabindex="0">
+
+  <!-- Header / Navbar -->
+  <nav id="navbar" class="navbar navbar-expand-lg fixed-top shadow-sm">
+    <div class="container">
+      <a class="navbar-brand fw-bold" href="#hero">Portfolio.</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto nav-pills">
+          <li class="nav-item">
+            <a class="nav-link" href="#hero">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#about">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#skills">Skills</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#projects">Projects</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#education">Education</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section id="hero" class="d-flex align-items-center min-vh-100 section-padding hidden-section">
+    <div class="container">
+      <div class="row align-items-center flex-column-reverse flex-md-row">
+        <div class="col-md-6 text-center text-md-start mt-5 mt-md-0 hero-content">
+          <h5 class="text-primary fw-semibold mb-2">Hello, I'm</h5>
+          <h1 class="display-4 fw-bold mb-3">Bhavana Shanmukhi</h1>
+          <h3 class="fw-medium mb-4 text-secondary">Aspiring Full Stack Developer</h3>
+          <p class="lead mb-4 text-muted">
+            A passionate Computer Science student dedicated to building modern, responsive web applications and solving
+            complex problems through clean and efficient code.
+          </p>
+          <div class="d-flex justify-content-center justify-content-md-start gap-3">
+            <a href="Bhavana_Shanmukhi_Resume.pdf" class="btn btn-primary btn-lg custom-btn">
+              <i class="bi bi-file-earmark-person me-2"></i>Download Resume
+            </a>
+            <a href="#contact" class="btn btn-outline-primary btn-lg custom-btn-outline">
+              Contact Me
+            </a>
+          </div>
+        </div>
+        <div class="col-md-6 text-center hero-image">
+          <div class="profile-img-container shadow-lg">
+            <!-- Placeholder Image -->
+            <img src="https://placehold.co/400x400/6A5ACD/FFFFFF?text=BS" alt="Profile Vector"
+              class="img-fluid rounded-circle">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="section-padding bg-light hidden-section">
+    <div class="container">
+      <div class="text-center mb-5 section-title">
+        <h2 class="fw-bold">About Me</h2>
+        <div class="underline mx-auto"></div>
+      </div>
+      <div class="row justify-content-center">
+        <div class="col-lg-8 text-center text-md-start">
+          <div class="glass-card p-4 p-md-5 rounded-4 shadow-sm">
+            <p class="lead text-muted">
+              I am a passionate Computer Science and Engineering (CSE) student with a strong interest in web development
+              and software engineering. My journey into technology started with curiosity about how websites and
+              applications work, which gradually developed into a passion for creating responsive and user-friendly web
+              experiences.
+            </p>
+            <p class="text-muted">
+              As an aspiring Full Stack Developer, I enjoy learning modern technologies and building real-world
+              projects.
+              Currently, I am improving my skills in Python, Django, JavaScript, and Full Stack Development while also
+              focusing on problem-solving and placements.
+              I love turning ideas into meaningful digital solutions and continuously exploring new technologies.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills Section -->
+  <section id="skills" class="section-padding hidden-section">
+    <div class="container">
+      <div class="text-center mb-5 section-title">
+        <h2 class="fw-bold">My Skills</h2>
+        <div class="underline mx-auto"></div>
+      </div>
+      <div class="row g-4 justify-content-center">
+        <!-- Skill Card 1 -->
+        <div class="col-6 col-md-4 col-lg-2">
+          <div class="skill-card text-center p-4 rounded-4 shadow-sm glass-card">
+            <i class="bi bi-filetype-html display-4 text-orange"></i>
+            <h5 class="mt-3 mb-0">HTML5</h5>
+          </div>
+        </div>
+        <!-- Skill Card 2 -->
+        <div class="col-6 col-md-4 col-lg-2">
+          <div class="skill-card text-center p-4 rounded-4 shadow-sm glass-card">
+            <i class="bi bi-filetype-css display-4 text-blue"></i>
+            <h5 class="mt-3 mb-0">CSS3</h5>
+          </div>
+        </div>
+        <!-- Skill Card 3 -->
+        <div class="col-6 col-md-4 col-lg-2">
+          <div class="skill-card text-center p-4 rounded-4 shadow-sm glass-card">
+            <i class="bi bi-bootstrap-fill display-4 text-purple"></i>
+            <h5 class="mt-3 mb-0">Bootstrap 5</h5>
+          </div>
+        </div>
+        <!-- Skill Card 4 -->
+        <div class="col-6 col-md-4 col-lg-2">
+          <div class="skill-card text-center p-4 rounded-4 shadow-sm glass-card">
+            <i class="bi bi-filetype-js display-4 text-yellow"></i>
+            <h5 class="mt-3 mb-0">JavaScript</h5>
+          </div>
+        </div>
+        <!-- Skill Card 5 -->
+        <div class="col-6 col-md-4 col-lg-2">
+          <div class="skill-card text-center p-4 rounded-4 shadow-sm glass-card">
+            <i class="bi bi-filetype-py display-4 text-primary"></i>
+            <h5 class="mt-3 mb-0">Python</h5>
+          </div>
+        </div>
+        <!-- Skill Card 6 -->
+        <div class="col-6 col-md-4 col-lg-2">
+          <div class="skill-card text-center p-4 rounded-4 shadow-sm glass-card">
+            <i class="bi bi-layers-fill display-4 text-success"></i>
+            <h5 class="mt-3 mb-0">Django</h5>
+          </div>
+        </div>
+        <!-- Skill Card 7 -->
+        <div class="col-6 col-md-4 col-lg-2">
+          <div class="skill-card text-center p-4 rounded-4 shadow-sm glass-card">
+            <i class="bi bi-filetype-sql display-4 text-Secondary"></i>
+            <h5 class="mt-3 mb-0">SQL</h5>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects" class="section-padding bg-light hidden-section">
+    <div class="container">
+      <div class="text-center mb-5 section-title">
+        <h2 class="fw-bold">My Projects</h2>
+        <div class="underline mx-auto"></div>
+      </div>
+      <div class="row g-4">
+        <!-- Project 1 -->
+        <div class="col-md-6 col-lg-4">
+          <div class="project-card card h-100 border-0 shadow-sm glass-card rounded-4 overflow-hidden">
+            <img src="https://placehold.co/600x400/9370DB/FFFFFF?text=Food+Munch" class="card-img-top" alt="Project 1">
+            <div class="card-body p-4">
+              <h4 class="card-title fw-bold">Food Munch - Responsive Restaurant Website</h4>
+              <p class="card-text text-muted">Designed and implemented a fully responsive restaurant website featuring
+                menu display, delivery and payment sections, and
+                smooth user navigation.</p>
+              <div class="d-flex gap-2 mt-4">
+                <a href="https://github.com/BhavanaBaswa/Food-Munch" class="btn btn-outline-dark btn-sm rounded-pill"><i
+                    class="bi bi-github me-1"></i>
+                  GitHub</a>
+                <a href="#" class="btn btn-primary btn-sm rounded-pill"><i class="bi bi-box-arrow-up-right me-1"></i>
+                  Live Demo</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Project 2 -->
+        <div class="col-md-6 col-lg-4">
+          <div class="project-card card h-100 border-0 shadow-sm glass-card rounded-4 overflow-hidden">
+            <img src="https://placehold.co/600x400/4169E1/FFFFFF?text=AI+Social+Media+Automation+System"
+              class="card-img-top" alt="Project 2">
+            <div class="card-body p-4">
+              <h4 class="card-title fw-bold">AI Social Media Automation System</h4>
+              <p class="card-text text-muted">Developed an AI-driven automation system to generate, schedule, and manage
+                social media content using API-based automa
+                tion workflows, reducing manual effort by 40% while significantly improving efficiency.</p>
+              <div class="d-flex gap-2 mt-4">
+                <a href="https://github.com/BhavanaBaswa/ai-social-media-automation"
+                  class="btn btn-outline-dark btn-sm rounded-pill"><i class="bi bi-github me-1"></i>
+                  GitHub</a>
+                <a href="#" class="btn btn-primary btn-sm rounded-pill"><i class="bi bi-box-arrow-up-right me-1"></i>
+                  Live Demo</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Project 3 -->
+        <div class="col-md-6 col-lg-4">
+          <div class="project-card card h-100 border-0 shadow-sm glass-card rounded-4 overflow-hidden">
+            <img src="https://placehold.co/600x400/7C3AED/FFFFFF?text=Campus+Connect" class="card-img-top"
+              alt="Project 3">
+            <div class="card-body p-4">
+              <h4 class="card-title fw-bold">Campus Connect</h4>
+              <p class="card-text text-muted">A Django-based web app for managing student tasks. Staff and admins can
+                create/assign tasks, while students can complete them and upload files. Features role-based dashboards.
+              </p>
+              <div class="d-flex gap-2 mt-4">
+                <a href="https://github.com/BhavanaBaswa/CampusConnect"
+                  class="btn btn-outline-dark btn-sm rounded-pill"><i class="bi bi-github me-1"></i>
+                  GitHub</a>
+                <a href="#" class="btn btn-primary btn-sm rounded-pill"><i class="bi bi-box-arrow-up-right me-1"></i>
+                  Live Demo</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Project 4 -->
+        <div class="col-md-6 col-lg-4">
+          <div class="project-card card h-100 border-0 shadow-sm glass-card rounded-4 overflow-hidden">
+            <img src="https://placehold.co/600x400/20B2AA/FFFFFF?text=Portfolio" class="card-img-top" alt="Project 4">
+            <div class="card-body p-4">
+              <h4 class="card-title fw-bold">Portfolio</h4>
+              <p class="card-text text-muted">My first personal portfolio website designed from scratch. Focuses on
+                minimal aesthetics, responsive layouts using native CSS Flexbox and Grid.</p>
+              <div class="d-flex gap-2 mt-4">
+                <a href="https://github.com/BhavanaBaswa/Portfolio" class="btn btn-outline-dark btn-sm rounded-pill"><i
+                    class="bi bi-github me-1"></i>
+                  GitHub</a>
+                <a href="#" class="btn btn-primary btn-sm rounded-pill"><i class="bi bi-box-arrow-up-right me-1"></i>
+                  Live Demo</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Education Section -->
+  <section id="education" class="section-padding hidden-section">
+    <div class="container">
+      <div class="text-center mb-5 section-title">
+        <h2 class="fw-bold">Education</h2>
+        <div class="underline mx-auto"></div>
+      </div>
+      <div class="row justify-content-center">
+        <div class="col-lg-8">
+          <div class="timeline">
+            <!-- Education Item 1 -->
+            <div class="timeline-item glass-card p-4 rounded-4 shadow-sm mb-4 position-relative">
+              <div class="timeline-dot bg-primary"></div>
+              <h5 class="fw-bold mb-1">
+                Bachelor of Technology in Computer Science and Engineering
+              </h5>
+              <h6 class="text-primary mb-2">
+                Aditya College of Engineering and Technology
+              </h6>
+              <span class="badge bg-light text-dark mb-3">
+                <i class="bi bi-calendar3 me-1"></i> 2023 - 2027
+              </span>
+              <p class="text-muted mb-0">
+                Currently pursuing B.Tech in Computer Science and Engineering with interests in Full Stack Development,
+                Software Engineering, and Web Technologies. Building skills in Python, Django, JavaScript, and
+                problem-solving.
+              </p>
+            </div>
+            <!-- Education Item 2 -->
+            <div class="timeline-item glass-card p-4 rounded-4 shadow-sm mb-4 position-relative">
+              <div class="timeline-dot bg-primary"></div>
+              <h5 class="fw-bold mb-1">
+                Intermediate Education (MPC)
+              </h5>
+              <h6 class="text-primary mb-2">
+                Narayana Junior College
+              </h6>
+              <span class="badge bg-light text-dark mb-3">
+                <i class="bi bi-calendar3 me-1"></i> 2021 - 2023
+              </span>
+              <p class="text-muted mb-0">
+                Completed Intermediate education with Mathematics, Physics, and Chemistry (MPC), developing analytical
+                thinking and problem-solving skills.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="section-padding bg-light hidden-section">
+    <div class="container">
+      <div class="text-center mb-5 section-title">
+        <h2 class="fw-bold">Contact Me</h2>
+        <div class="underline mx-auto"></div>
+      </div>
+      <div class="row g-4 justify-content-center">
+        <div class="col-lg-5">
+          <div class="row g-3">
+            <!-- Contact Info Cards -->
+            <div class="col-sm-6 col-lg-12">
+              <div class="contact-info-card glass-card p-4 rounded-4 shadow-sm d-flex align-items-center">
+                <div
+                  class="icon-box bg-primary-subtle text-primary rounded-circle d-flex justify-content-center align-items-center me-3"
+                  style="width: 50px; height: 50px;">
+                  <i class="bi bi-envelope-fill fs-4"></i>
+                </div>
+                <div>
+                  <h6 class="mb-1 fw-bold">Email</h6>
+                  <a href="mailto:bhavanabaswa77@gmail.com"
+                    class="text-decoration-none text-muted">bhavanabaswa77@gmail.com</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-6 col-lg-12">
+              <div class="contact-info-card glass-card p-4 rounded-4 shadow-sm d-flex align-items-center">
+                <div
+                  class="icon-box bg-primary-subtle text-primary rounded-circle d-flex justify-content-center align-items-center me-3"
+                  style="width: 50px; height: 50px;">
+                  <i class="bi bi-telephone-fill fs-4"></i>
+                </div>
+                <div>
+                  <h6 class="mb-1 fw-bold">Phone</h6>
+                  <a href="tel:+919110516307" class="text-decoration-none text-muted">+91 9110516307</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-6 col-lg-12">
+              <div class="contact-info-card glass-card p-4 rounded-4 shadow-sm d-flex align-items-center">
+                <div
+                  class="icon-box bg-primary-subtle text-primary rounded-circle d-flex justify-content-center align-items-center me-3"
+                  style="width: 50px; height: 50px;">
+                  <i class="bi bi-linkedin fs-4"></i>
+                </div>
+                <div>
+                  <h6 class="mb-1 fw-bold">LinkedIn</h6>
+                  <a href="https://www.linkedin.com/in/bhavana-shanmukhi-baswa-568217291/"
+                    class="text-decoration-none text-muted">linkedin.com/in/bhavana-shanmukhi-baswa</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-6 col-lg-12">
+              <div class="contact-info-card glass-card p-4 rounded-4 shadow-sm d-flex align-items-center">
+                <div
+                  class="icon-box bg-primary-subtle text-primary rounded-circle d-flex justify-content-center align-items-center me-3"
+                  style="width: 50px; height: 50px;">
+                  <i class="bi bi-github fs-4"></i>
+                </div>
+                <div>
+                  <h6 class="mb-1 fw-bold">GitHub</h6>
+                  <a href="https://github.com/BhavanaBaswa"
+                    class="text-decoration-none text-muted">github.com/BhavanaBaswa</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-7">
+          <div class="contact-form-wrapper glass-card p-4 p-md-5 rounded-4 shadow-sm h-100">
+            <form id="contactForm">
+              <h4 class="fw-bold mb-4">Send a Message</h4>
+              <div class="mb-3">
+                <label for="name" class="form-label">Full Name</label>
+                <input type="text" class="form-control form-control-lg custom-input" id="name"
+                  placeholder="Enter your name" required>
+              </div>
+              <div class="mb-3">
+                <label for="email" class="form-label">Email Address</label>
+                <input type="email" class="form-control form-control-lg custom-input" id="email"
+                  placeholder="Enter your email" required>
+              </div>
+              <div class="mb-4">
+                <label for="message" class="form-label">Message</label>
+                <textarea class="form-control form-control-lg custom-input" id="message" rows="5"
+                  placeholder="How can I help you?" required></textarea>
+              </div>
+              <button type="submit" class="btn btn-primary btn-lg w-100 custom-btn">Send Message <i
+                  class="bi bi-send ms-2"></i></button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer py-4 text-center">
+    <div class="container">
+      <div class="social-links mb-3 d-flex justify-content-center gap-3">
+        <a href="#" class="social-icon"><i class="bi bi-twitter-x"></i></a>
+        <a href="#" class="social-icon"><i class="bi bi-github"></i></a>
+        <a href="#" class="social-icon"><i class="bi bi-linkedin"></i></a>
+        <a href="#" class="social-icon"><i class="bi bi-instagram"></i></a>
+      </div>
+      <p class="mb-0 text-muted">&copy; 2026 Bhavana Shanmukhi. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <!-- Scroll to Top Button -->
+  <button id="scrollToTopBtn" class="btn btn-primary rounded-circle shadow" title="Go to top">
+    <i class="bi bi-arrow-up-short fs-4"></i>
+  </button>
+
+  <!-- Bootstrap Bundle JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  <!-- Custom JS -->
+  <script src="script.js"></script>
+</body>
+
+</html>
